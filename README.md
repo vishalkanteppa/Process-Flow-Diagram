@@ -17,13 +17,13 @@ Before you start, ensure you have the following installed:
 ### Getting started:
 #### 1. Clone the repository
 ```bash
-https://github.com/vishalkanteppa/Bondi-App.git
+git clone https://github.com/vishalkanteppa/Process-Flow-Diagram.git
 ```
 
 #### 2. Install dependencies
 Navigate into the project directory and install the necessary dependencies.
 ```bash
-cd process-flow-diagram
+cd Process-Flow-Diagram
 npm install
 ```
 
@@ -32,6 +32,10 @@ Start the development server to run the app locally.
 ```bash
 npm run dev
 ```
+Once the server is up and running, you can access the app at:
+```
+http://localhost:5173/
+```
+Note: If port 5173 is already in use on your local system, the app will automatically try another available port. Just check the terminal output for the updated port number if needed.
 
-  
         
